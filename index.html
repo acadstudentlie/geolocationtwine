@@ -158,7 +158,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		if (a === b) { // handles various "exact" edge cases
 			return true;
 		}
-		allowedDiff = allowedDiff || 0.0005;
+		allowedDiff = allowedDiff || 0.000005;
 		return Math.abs(a - b) < allowedDiff;
 	};
 }());
